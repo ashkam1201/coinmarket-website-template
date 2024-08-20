@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Coin Market</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="assets/imgs/Bitcoin-Logo.png" alt="bitcoin logo" height="50px" width="90px">
+        </a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;">&#9776;</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#assets">ASSETS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#waytobuy">WAY TO BUY CRYPTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#howitworks">HOW IT WORKS</a>
+                </li>
+            </ul>
+            <button class="btn login" type="submit">LOG IN</button>
+            <button class="btn register" type="submit">REGISTER</button>
+        </div>
+    </nav>
+    <section class="section-container">
+        <div class="hero">
+            <h1 class="hero-title">COIN MARKET</h1>
+        </div>
+        <div class="container description-hero">
+            <div class="row">
+                <div class="description col">
+                    <h3>Buy Crypto anytime</h3>
+                    <p>Say goodbye to long waiting times and hello to instant transactions. We are user-friendly online platform that enables you to easily buy.</p>
+                </div>
+                <div class="crypto-hero col">
+                    <!-- Crypto Converter ⚡ Widget --><crypto-converter-widget amount="1" shadow="true" symbol="true" live="true" fiat="united-states-dollar" crypto="bitcoin" font-family="inherit" background-color="#252525" decimal-places="2" border-radius="0.5rem"></crypto-converter-widget><a href="https://currencyrate.today/" target="_blank" rel="noopener">CurrencyRate.Today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="assets" class="assets-section">
+        <h2>SUPPORTED ASSETS</h2>
+        <p>Buy the most popular cryptocurrencies including Bitcoin, Ethereum, and more.</p>
+        <!-- Crypto Table Widget -->
+        <div class="cryptohopper-web-widget" data-id="4" data-chart_color="#252525" data-text_color="#ffffff" data-background_color="#252525" data-coins="bitcoin,ethereum,litecoin" data-numcoins="10" data-theme="midnight" data-list_design="1"></div>
+        <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    </section>
+
+    <section id="waytobuy"  class="section-container">
+        <h2 class="section-title">THE BEST WAY TO BUY CRYPTOCURRENCY</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card text-center">
+                        <img src="assets/imgs/paid-content.png" class="card-img-top mx-auto" alt="Card payments icon" style="width: 50px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card payments</h5>
+                            <p class="card-text">Integrating credit and debit card payments allows users to buy cryptocurrencies instantly and conveniently. It’s a popular option for many users due to its ease of use.</p>
+                            <a href="#" class="btn btn-outline-light">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card text-center">
+                        <img src="assets/imgs/safe-box.png" class="card-img-top mx-auto" alt="Digital wallets icon" style="width: 50px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital wallets</h5>
+                            <p class="card-text">Begin by choosing a reputable digital wallet that supports the specific cryptocurrencies you wish to buy. Look for wallets with strong security features and positive user reviews.</p>
+                            <a href="#" class="btn btn-outline-light">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card text-center">
+                        <img src="assets/imgs/cash-money.png" class="card-img-top mx-auto" alt="Cryptocurrency payments icon" style="width: 50px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Cryptocurrency payments</h5>
+                            <p class="card-text">Allowing users to buy cryptocurrencies using other cryptocurrencies (e.g., using Bitcoin to purchase Ethereum) can be appealing to crypto enthusiasts.</p>
+                            <a href="#" class="btn btn-outline-light">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card text-center">
+                        <img src="assets/imgs/road-sign.png" class="card-img-top mx-auto" alt="Peer-to-Peer (P2P) icon" style="width: 50px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Peer-to-Peer (P2P)</h5>
+                            <p class="card-text">Implementing a P2P system allows users to buy cryptocurrencies directly from other users, which can offer more flexibility and payment options.</p>
+                            <a href="#" class="btn btn-outline-light">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="howitworks" class="how-to-section">
+        <div class="container">
+            <div class="row">
+                <!-- Left Content: Title and Description -->
+                <div class="col-lg-6">
+                    <h2>HOW TO BUY CRYPTO</h2>
+                    <p class="description">Buy crypto with a credit card, debit card, Apple Pay or Google Pay. Delivered quickly to any wallet, no hidden fees or third-party custody.</p>
+                </div>
+                <!-- Right Content: Steps -->
+                <div class="col-lg-6">
+                    <div class="how-to-steps">
+                        <!-- Step 1 -->
+                        <div class="step d-flex align-items-start">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h5>Choose your crypto</h5>
+                                <p>Implementing a P2P system allows users to buy cryptocurrencies directly from other users, which can offer more flexibility and payment options.</p>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <!-- Step 2 -->
+                        <div class="step d-flex align-items-start">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h5>Send to any wallet</h5>
+                                <p>Enter the address where you’d like to receive your crypto. Need a wallet? Store securely with Bit Star.</p>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <!-- Step 3 -->
+                        <div class="step d-flex align-items-start">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h5>Pay and receive crypto</h5>
+                                <p>Choose the best rate and pay with credit card, debit card, Apple Pay or Google Pay.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Logo and Description -->
+                <div class="col-lg-4 logo-section">
+                    <img src="assets/imgs/Bitcoin-Logo.png" alt="bitcoin logo" height="50px" width="90px">
+                    <p>Our platform provides access to a diverse selection of digital assets, ensuring you can find the ones that align with your investment goals.</p>
+                </div>
+                <!-- Navigation Links -->
+                <div class="col-lg-4 footer-links-section">
+                    <h5 class="footer-heading">NAVIGATION</h5>
+                    <div class="footer-links">
+                        <a href="#assets">ASSETS</a>
+                        <a href="#waytobuy">WAY TO BUY CRYPTO</a>
+                        <a href="#howitworks">HOW IT WORKS</a>
+                    </div>
+                </div>
+                <!-- Support Links -->
+                <div class="col-lg-4 footer-links-section">
+                    <h5 class="footer-heading">SUPPORT</h5>
+                    <div class="footer-links">
+                        <a href="#">PRIVACY POLICY</a>
+                        <a href="#">TERMS AND CONDITIONS</a>
+                        <a href="#">HOW IT WORKS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="copyright">© 2024 Adrian Hagjija. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

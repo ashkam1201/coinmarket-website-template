@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital@0;1&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #252525 !important;
+}
+
+.navbar {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: underline;
+}
+
+.login {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    border: 2px solid white !important;
+    color: white !important;
+
+    &:hover {
+        background-color: white;
+        color: #252525 !important;
+        border: 2px solid #252525 !important;
+    }
+}
+
+.register {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    border: 2px solid white !important;
+    color: white !important;
+
+    &:hover {
+        background-color: white;
+        color: #252525 !important;
+        border: 2px solid #252525 !important;
+    }
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Takes full viewport height */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-title {
+    color: white;
+    width: 100%;
+    font-size: 200px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 48px;
+    }
+}
+
+.description-hero {
+    padding-left: 220px;
+    color: white !important;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description {
+    width: 50%;
+}
+
+/* Optional: Customize the toggler icon */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    color: white;
+    font-size: 24px; /* Adjust the size if needed */
+}
+
+
+/* section best way to buy crypto */
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.card {
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.card-text {
+    color: #b0b0b0;
+    margin-top: 15px;
+}
+
+.btn-outline-light {
+    margin-top: 20px;
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #252525;
+}
+
+.section-container {
+    padding: 80px 0;
+    background: rgb(37,37,37);
+background: linear-gradient(157deg, rgba(37,37,37,1) 41%, rgba(113,31,131,1) 73%, rgba(37,4,158,1) 87%);
+}
+
+.row.equal-height-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-6,
+.col-md-6 {
+    display: flex;
+}
+
+.card {
+    flex: 1;
+    background: #252525 !important;
+    border: 2px solid black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* How to Buy Crypto Section */
+.how-to-section {
+    padding: 80px 0;
+    background-color: #252525;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px; /* Match the padding of the best way to buy crypto section */
+}
+
+.how-to-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.how-to-section .description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #b0b0b0;
+}
+
+/* Step Styles */
+.how-to-steps .step-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #666666;
+    margin-right: 20px;
+}
+
+.how-to-steps .step-content h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.how-to-steps .step-content p {
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.how-to-steps .step {
+    margin-bottom: 30px;
+}
+
+.how-to-steps .divider {
+    height: 1px;
+    background-color: #666666;
+    margin: 20px 0;
+}
+
+/* Ensure H2 and P are stacked correctly */
+.how-to-section .col-lg-6 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* footer */
+footer {
+    background-color: #1e1e1e;
+    font-family: 'Roboto Mono', monospace;
+    padding: 40px 0;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+footer .logo-section img {
+    margin-bottom: 20px;
+}
+
+footer .footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+footer .footer-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    color: #cccccc;
+}
+
+footer .copyright {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #666666;
+}
+
+ /* Section Container */
+ .assets-section {
+    padding: 80px 0;
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(37, 37, 37);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.assets-section h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.assets-section p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b0b0b0;
+}
+
+/* Widget Container Styling */
+.cryptohopper-web-widget {
+    width: 100%;
+    max-width: 900px;
+    background-color: #252525;
+    padding: 20px;
+    border: 1px solid #666666;
+    border-radius: 8px;
+}
